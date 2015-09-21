@@ -1,0 +1,26 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6bc051"
+    tools:context=".MainActivity">
+
+    <hujiang.progressview.ProgressView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        app:currentProgress="40"
+        app:maxProgress="100"
+        app:progressColor="#ccedf7e9"
+        app:radius="80dp"
+        app:strokeWidth="30dp"
+        app:text="40%"
+        app:textColor="#ffffff"
+        app:textSize="40dp"
+        app:innerColor="#89cc73"
+        app:outerColor="#9ad386" />
+
+</RelativeLayout>
